@@ -3,33 +3,47 @@ const userMessage = [
   ["sure", "yes", "no"],
   ["where is khwopa secondary school is located", "location", "khwopa location"],
   ["can you tell about khwopa secondary school", "khwopa secondary school"],
-  ["what does khwopa serves?", "what does khwopa have as an option for student "],
-  ["aim of Khwopa"],
-  ["who is Khwopa's principle?","Princle of khwopa"],
-  ["what is the average requirement of money in khwopa for +2","what about the fees","fees"],
-  ["bus servies","what about transportation"]
+  ["how can i apply to Khwopa?"],
+  ["khwopa popular", "is khwopa popular in bhaktapur?", "popular"],
+  ["are there any annual program", "annual program", "program"],
+  ["aim of khwopa"],
+  [, "what is khwopa motto", "khwopa motto", "motto of khwopa"],
+  ["principal", "khwopa principal", "Principal of khwopa"],
+  ["bus services","transportation facility"],
+  ["boarding facility","hostel facilities"],
+  ["stream offered in higher level","faculties"],
+  ["does khwopa offer scholarship","scholarship"],
+  ["library facility","library"],
+
 ];
 const botReply = [
-  ["Great to see you here!. <br> What information are you looking for? ask me anything about Khwopa Secondary School. "],
+  ["Great to see you here!. <br> What information are you looking for? ask me anything about Khwopa Secondary School."],
   ["Okay"],
   ["Located at the ancient historical and cultural city, Bhaktapur <br> Exactly Dekocha Bhaktapur"],
   ["Khwopa Secondary School was founded by Bhaktapur Municipality on 16th Shrawan, 2056 (1st August, 1999). Buoyed up with the idea of enlightening the whole society and the nation by means of providing quality education, the municipality made an aggressive initiation realizing their long term vision of the over all development of Bhaktapur. In its decade long history, this instiutition has proved itself as one of the well equipped school with national recognition. The motto of Khwopa Secondary School is to produce global leaders with sound theoretical knowledge competence and skill. That is why the institution takes every academic year as a new beginning and tries for something that is beyond attainment. The philosophy has always remained to try for something that has never been done or that other have tried and failed. This very essence is backed by experienced professors, visiting subject experts and lecturers.Along with, we maintain the regular classes, indepth practical assignments, field excursion and report writing which are the recipes for success of each individual student."],
   [
-    "Khwopa has literally all faculty with best teaching methods and lecturer "
+    "By visiting the school during the admission period and taking an entrance exam.    ",
   ],
-  ["Best education.."],
-  ["Laxmi Prasad Karmacharya"],
-  ["It depends on the faulty a student choose"],
-  ["KSS also serves a very good transportation services in maximum places inside the valley"]
+  ["Yes, Khwopa is one of the most popular schools in Bhaktapur."],
 
+  [
+    "Yes, Khwopa hosts annual events like sports day and cultural programs.",
+  ],
+  ["First Come First Priority"],
+  ["Khwopa Secondary School's motto is Knowledge for the Future."],
+  ["Laxmi Prasad Karmacharya"],
+  ["KSS also serves a very good transportation services in maximum places inside the valley"],
+  ["No, Khwopa Secondary School does not have a boarding facility. Students from nearby areas typically commute to the school."],
+  [" At the higher secondary level, Khwopa Secondary School offers streams in Science, Management, and Humanities."],
+  [" Yes, Khwopa Secondary School offers scholarships to deserving students, particularly those from financially disadvantaged backgrounds, based on academic performance, need, or both."],
+  [" Yes, Khwopa Secondary School has a well-equipped library with a wide range of textbooks, reference materials, and novels. The school also provides online resources and study materials for students to enhance their learning"],
 ];
 
 const alternative = [
-  "Same here, dude.",
-  "That's cool! Go on...",
-  "Dude...",
-  "Ask something else...",
-  "Hey, I'm listening..."
+  "Extremely Sorry I could not get the information",
+  "404 Error",
+  "Sorry",
+  "Information is out of service try for the other queries "
 ];
 
 const synth = window.speechSynthesis;
@@ -40,7 +54,7 @@ function voiceControl(string) {
   u.lang = "en-aus";
   u.volume = 1;
   u.rate = 1;
-  u.pitch = 0.5;
+  u.pitch = 1;
   synth.speak(u);
 }
 
