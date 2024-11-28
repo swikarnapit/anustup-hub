@@ -10,7 +10,7 @@ const userMessage = [
   ["bus servies","what about transportation"]
 ];
 const botReply = [
-  ["Great to see you here!. <br> What information are you looking for? ask me anything about Khwopa Secondary School. 🪄"],
+  ["Great to see you here!. <br> What information are you looking for? ask me anything about Khwopa Secondary School. "],
   ["Okay"],
   ["Located at the ancient historical and cultural city, Bhaktapur <br> Exactly Dekocha Bhaktapur"],
   ["Khwopa Secondary School was founded by Bhaktapur Municipality on 16th Shrawan, 2056 (1st August, 1999). Buoyed up with the idea of enlightening the whole society and the nation by means of providing quality education, the municipality made an aggressive initiation realizing their long term vision of the over all development of Bhaktapur. In its decade long history, this instiutition has proved itself as one of the well equipped school with national recognition. The motto of Khwopa Secondary School is to produce global leaders with sound theoretical knowledge competence and skill. That is why the institution takes every academic year as a new beginning and tries for something that is beyond attainment. The philosophy has always remained to try for something that has never been done or that other have tried and failed. This very essence is backed by experienced professors, visiting subject experts and lecturers.Along with, we maintain the regular classes, indepth practical assignments, field excursion and report writing which are the recipes for success of each individual student."],
